@@ -3,10 +3,7 @@
 	
 	require 'libs/PasswordLib.phar';
  
-	$db_serverhost = "sql530.your-server.de";
-	$db_username = "efxinf_7";
-	$db_password = "LxkLYb23hC7nKp4X";
-	$db_name = "efxinf_db7";
+	include 'auth.php';
 
  
  //Connection step 1

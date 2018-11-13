@@ -3,10 +3,7 @@
 	require 'libs/PasswordLib.phar';
 	
 	//Connection
-	$db_serverhost = "sql530.your-server.de";
-	$db_username = "efxinf_7";
-	$db_password = "LxkLYb23hC7nKp4X";
-	$db_name = "efxinf_db7";
+	include 'auth.php';
 	
 	$conn = mysqli_connect($db_serverhost, $db_username, $db_password, $db_name);
 	if(!$conn) { echo "mysql-error: " . mysqli_connect_error() . "<br>\n";  } 

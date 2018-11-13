@@ -1,8 +1,5 @@
 <?php 	
-	$db_serverhost = "sql530.your-server.de";
-	$db_username = "efxinf_7";
-	$db_password = "LxkLYb23hC7nKp4X";
-	$db_name = "efxinf_db7";
+	include 'auth.php';
  
 	//Connecting to db
 	$conn = mysqli_connect($db_serverhost, $db_username, $db_password, $db_name);
